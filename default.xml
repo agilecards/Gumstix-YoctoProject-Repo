@@ -4,6 +4,7 @@
   <remote name="gumstix" fetch="git://github.com/gumstix" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://github.com/openembedded" />
+  <remote name="ros" fetch="git://github.com/bmwcarit" />
 
   <!-- Pick some default options to save typing below -->
   <default revision="refs/heads/danny" remote="gumstix" sync-j="4" />
@@ -20,4 +21,5 @@
   <project name="meta-gumstix-extras" remote="gumstix" path="poky/meta-gumstix-extras" />
   <!-- Other useful repositories...add to bblayers.conf as needed -->
   <project name="meta-ti" remote="yocto" path="poky/meta-ti" />
+  <project name="meta-ros" remote="ros" path="poky/meta-ros" />
 </manifest>
