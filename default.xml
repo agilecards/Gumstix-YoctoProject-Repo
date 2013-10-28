@@ -4,6 +4,7 @@
   <remote name="adam-lee" fetch="git://github.com/adam-lee" />
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://github.com/openembedded" />
+  <remote name="joaohf" fetch="git://github.com/joaohf" />
 
   <!-- Pick some default options to save typing below -->
   <default revision="refs/heads/danny" remote="adam-lee" sync-j="4" />
@@ -17,4 +18,5 @@
   <project name="meta-oe" remote="oe" path="poky/meta-openembedded" />
   <project name="meta-gumstix" remote="adam-lee" path="poky/meta-gumstix" />
   <project name="meta-gumstix-extras" remote="adam-lee" path="poky/meta-gumstix-extras" />
+  <project name="meta-erlang" remote="joaohf" path="poky/meta-erlang" />
 </manifest>
